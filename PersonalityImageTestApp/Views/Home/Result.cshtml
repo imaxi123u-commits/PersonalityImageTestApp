@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Personality Result";
+}
+
+<div class="container text-center" style="margin-top:80px;">
+
+    <div class="card shadow p-5">
+
+        <h2 class="mb-3">Your Personality Result</h2>
+
+        <h3 class="text-primary">
+            @ViewBag.Result
+        </h3>
+
+        <p class="text-muted mt-3">
+            This result is based on your image choice.
+        </p>
+
+        <a href="/Home/Index" class="btn btn-success mt-3">
+            Try Again
+        </a>
+
+    </div>
+
+</div>
