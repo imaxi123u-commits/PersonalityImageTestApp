@@ -33,6 +33,14 @@ namespace PersonalityImageTestApp.Controllers
                     personality = "Creative and Curious Personality";
                     break;
 
+                case "mountain":
+                    personality = "Strong and Focused Personality";
+                    break;
+
+                case "beach":
+                    personality = "Relaxed and Fun Loving Personality";
+                    break;
+
                 default:
                     personality = "Unknown Personality";
                     break;
